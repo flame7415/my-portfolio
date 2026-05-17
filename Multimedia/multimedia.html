@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+
+    <link rel="stylesheet" href="multimedia.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="/index.html" class="logo">Francis Perez</a>
+        <nav>
+            <a href="/index.html" id ="home"> Home</a>
+            <a href="/project/project.html" class="active" id="projectbtn" > Projects</a>
+            <a href="/skills/skill.html"> Skills</a>
+            <a href="/education/educ.html"> Education</a>
+            <a href="/experience/exp.html"> Experience</a>
+            <a href="/contact/contact.html"> Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+
+        <h1 class="graphics-title">Graphics Design</h1>
+        <p class="descrip">Here are some of my projects:</p>
+
+    <div class="home-content">
+        <div class="gallery">
+        <div class="gallery-item">
+            <video controls class="expandable">
+            <source src="/design_proj/MANGO MAGIC bgm2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <span class="caption">Mango Magic Project</span>
+        </div>
+
+        <div class="gallery-item">
+            <img src="/design_proj/img2.jpg" alt="Image 2" class="expandable">
+            <span class="caption">Promotional Poster</span>
+        </div>
+
+        <div class="gallery-item">
+            <img src="/design_proj/img3.jpg" alt="Image 3" class="expandable">
+            <span class="caption">Digital Design</span>
+        </div>
+
+        <div class="gallery-item">
+            <img src="/design_proj/img4.jpg" alt="Image 4" class="expandable">
+            <span class="caption">Promotional Campaign</span>
+        </div>
+
+        <div class="gallery-item">
+            <img src="/design_proj/lettermark.png" alt="Image 5" class="expandable">
+            <span class="caption">MountainScape</span>
+        </div>
+
+        <div class="gallery-item">
+            <img src="/design_proj/wordmark.png" alt="Image 6" class="expandable">
+            <span class="caption">EcoGlow</span>
+        </div>
+        
+        
+        </div>
+        </div>
+
+        <div id="lightbox">
+            <span id="close">&times;</span>
+            <div id="lightbox-content"></div>
+        </div>
+        </div>
+    </div>
+
+    </section>
+
+<script src="multimedia.js"></script>
+</body>
+</html>
