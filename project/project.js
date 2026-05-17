@@ -3,9 +3,9 @@ document.getElementById("home").addEventListener("click", function() {
 });
 
 document.getElementById("proj").addEventListener("click", function() {
-    window.location.href = "/Multimedia/multimedia.html';
+    window.location.href = "/Multimedia/multimedia.html";
 });
 
 document.getElementById("game").addEventListener("click", function() {
-    window.location.href = '/game_dev/game.html';
+    window.location.href = "/game_dev/game.html";
 });
